@@ -23,15 +23,16 @@ For Students: APIs that check and select courses
 3.	can write text reviews to any courses that he attended before.
 4.	can send numerical rating to any course that he attended before.
 
-![Diagram drawio](https://user-images.githubusercontent.com/112025981/188242955-2f7f8b41-67f8-443f-a8c4-af90b956882c.svg)
+![Diagram](https://user-images.githubusercontent.com/112025981/188245719-739ae91f-bb76-406e-ad9d-861c58bc7b1f.svg)
 
 Project Requirements:
 1.	Generate a Gradle or Maven Project with Java and Spring Boot framework (version 2.7.3).
-1.1 Group name: com.vibrant
-1.2 Artifact name: demo
+  1.1 Group name: com.vibrant
+  1.2 Artifact name: demo
 2.	Database: use H2 in-memory database
+  2.1 Store the database entity for use
 3.	Configure your Spring Boot project so that the project can be run.
 4.	It is a plus if you configure swagger in project package.
-4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)
+  4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)
 5.	Use Spring Data JPA dependency to implement JPA for database manipulations 
 6.	In your project, please pick at least one API to implement the Junit test. It is required to have 3 test cases for the according API which can demonstrate the developed API passes all 3 test cases.
