@@ -6,16 +6,19 @@ Description:
 One professor would like to use a web application to create new courses.
 Professor will create several courses for a few students, and students can select courses.
 
-Backend APIs required to fulfill:
+Backend APIs required to fulfill:  
+
 For Professor: APIs that can create courses
-1.	can create and edit text to describe each course.
-2.	can update roster of attended students if they join or quit course
-3.	can check how many students select each course and who they are (name and gender). 
-4.	can check anonymous text reviews from students on each course and send back text message to any reviews.
-5.	can check anonymous numerical ratings (0-10 inclusive) from students on each course.
-6.	can check highest rating, lowest rating, and the average rating score.
-7.	can sort the text reviews in ascending and descending order according to updated time of reviews.
-8.	can get the review text containing String keyword “good” and “bad”.
+1.	can create each course. (postMapping)
+2.	can delete each course. (postMapping input: course id)
+4.	can edit each course. (postMapping --> input: course id, course description)
+5.	can update roster of attended students if they join or quit course
+6.	can check how many students select each course and who they are (name and gender). 
+7.	can check anonymous text reviews from students on each course and send back text message to any reviews.
+8.	can check anonymous numerical ratings (0-10 inclusive) from students on each course.
+9.	can check highest rating, lowest rating, and the average rating score.
+10.	can sort the text reviews in ascending and descending order according to updated time of reviews.
+11.	can get the review text containing String keyword “good” and “bad”.
 
 For Students: APIs that check and select courses
 1.	can read texts that describes each course.
