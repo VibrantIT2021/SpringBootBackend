@@ -30,6 +30,7 @@ Project Requirements:
   1.1 Group name: com.vibrant
   1.2 Artifact name: demo
 2.	Database: use H2 in-memory database
+
   2.1 Store the database entity for use
 3.	Configure your Spring Boot project so that the project can be run.
 4.	It is a plus if you configure swagger in project package.
