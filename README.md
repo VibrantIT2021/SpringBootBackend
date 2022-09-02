@@ -4,7 +4,7 @@ Please finish and submit the following project in the required time.
 
 Description:
 One professor would like to use a web application to create new courses.
-Professor will create several courses for a few students, and students can select courses and leave reviews on each course so that the professor can check feedback from students. 
+Professor will create several courses for a few students, and students can select courses.
 
 Backend APIs required to fulfill:
 For Professor: APIs that can create courses
