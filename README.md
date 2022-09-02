@@ -9,7 +9,7 @@ Professor will create several courses for a few students, and students can selec
 Backend APIs required to fulfill:  
 
 For Professor: APIs that can create courses
-1.	can create each course. (postMapping)
+1.	can create each course. (postMapping input: )
 2.	can delete each course. (postMapping input: course id)
 4.	can edit each course. (postMapping --> input: course id, course description)
 5.	can update roster of attended students if they join or quit course
