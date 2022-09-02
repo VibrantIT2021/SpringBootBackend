@@ -34,3 +34,4 @@ Project Requirements:
 4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)
 5.	Use Spring Data JPA dependency to implement JPA for database manipulations 
 6.	In your project, please pick at least one API to implement the Junit test. It is required to have 3 test cases for the according API which can demonstrate the developed API passes all 3 test cases.
+https://github.com/VibrantIT2021/SpringBootBackend/blob/main/swagger%20UI.png
