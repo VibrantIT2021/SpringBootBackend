@@ -27,13 +27,12 @@ For Students: APIs that check and select courses
 
 Project Requirements:
 1.	Generate a Gradle or Maven Project with Java and Spring Boot framework (version 2.7.3).
-  1.1 Group name: com.vibrant
-  1.2 Artifact name: demo
-2.	Database: use H2 in-memory database
-
+  1.1 Group name: com.vibrant  
+  1.2 Artifact name: demo  
+2.	Database: use H2 in-memory database  
   2.1 Store the database entity for use
 3.	Configure your Spring Boot project so that the project can be run.
-4.	It is a plus if you configure swagger in project package.
+4.	It is a plus if you configure swagger in project package.  
   4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)
   ![Picture1](https://user-images.githubusercontent.com/112025981/188246311-e6abaa18-153e-4f18-ad40-e8b182555a23.svg)
 5.	Use Spring Data JPA dependency to implement JPA for database manipulations 
