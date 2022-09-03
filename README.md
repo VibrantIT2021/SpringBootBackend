@@ -8,7 +8,7 @@ Professor will create several courses for a few students, and students can selec
 
 Backend APIs required to fulfill:  
 
-For Professor: APIs that can create courses
+For Professor: APIs that can create courses  
 1.can create each course. (postMapping course table --> input: name, description text, active status; output: Course)  
 2.can delete each course. (postMapping course table --> input: course id, active status; output: status message indicating delete success or failure    	                                          update Enrollment table --> input: course id, false; output: status message indicating delete success or failure)
 3.can edit description text on each course. (check course table --> input: course id; ouput: course active status  
