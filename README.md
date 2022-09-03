@@ -36,8 +36,8 @@ Project Requirements:
 2.	Database: use H2 in-memory database  
   2.1 Store the database entity for use
 3.	Configure your Spring Boot project so that the project can be run.
-4.	It is a plus if you configure swagger in project package.  
-  4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)
+4.	It is a plus if you configure swagger in project package.    
+  4.1 SpringFoxConfig → configure swagger for API testing (refer to picture below as an example:   http://localhost:Your Port Number/swagger-ui/#/)  
   ![Picture1](https://user-images.githubusercontent.com/112025981/188246311-e6abaa18-153e-4f18-ad40-e8b182555a23.svg)
 5.	Use Spring Data JPA dependency to implement JPA for database manipulations 
 6.	In your project, please pick at least one API to implement the Junit test. It is required to have 3 test cases for the according API which can demonstrate the developed API passes all 3 test cases.
