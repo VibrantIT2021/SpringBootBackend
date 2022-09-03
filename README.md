@@ -9,22 +9,22 @@ Professor will create several courses for a few students, and students can selec
 Backend APIs required to fulfill:  
 
 For Professor: APIs that can create courses
-1.can create each course. (postMapping course table --> input: name, description text, active status; output: Course)
-2.can delete each course. (postMapping course table --> input: course id, active status; output: status message indicating delete success or failure  	                                          update Enrollment table --> input: course id, false; output: status message indicating delete success or failure)
-3.can edit description text on each course. (check course table --> input: course id; ouput: course active status
-	                                    postMapping course table --> input: course id, course description; output: status message indicating success or failure)
-4.can remove student from course. (postMapping enrollment table --> input: course id, student id, false; output: status message indicating success or failure)
-5.can check how many students select each course. (check course table --> input: course id; ouput: course active status
-                                                   getMapping course table --> input: course id; output: number of List<Student>) 
-6.can check enrolled students'information. (check course table --> input: course id; ouput: course active status
-                                            getMapping course table --> input: course id; output: List<Student>) 
+1.can create each course. (postMapping course table --> input: name, description text, active status; output: Course)  
+2.can delete each course. (postMapping course table --> input: course id, active status; output: status message indicating delete success or failure    	                                          update Enrollment table --> input: course id, false; output: status message indicating delete success or failure)
+3.can edit description text on each course. (check course table --> input: course id; ouput: course active status  
+	                                    postMapping course table --> input: course id, course description; output: status message indicating success or failure)  
+4.can remove student from course. (postMapping enrollment table --> input: course id, student id, false; output: status message indicating success or failure)  
+5.can check how many students select each course. (check course table --> input: course id; ouput: course active status  
+                                                   getMapping course table --> input: course id; output: number of List<Student>)   
+6.can check enrolled students'information. (check course table --> input: course id; ouput: course active status  
+                                            getMapping course table --> input: course id; output: List<Student>)     
 
-For Students: APIs that check and select courses
-1.can read texts that describes on each course. (check course table --> input: course id; ouput: course active status
-                                                 getMapping course --> input: course id; output: course description)
-2.can join any courses. (check course table --> input: course id; ouput: course active status
-                         postMapping enrollment table --> input: student id, course id, true; output: status message indicating success or failure) 
-3.can quit any courses. (postMapping enrollment table --> input: student id, course id, enrolled status true; output: status message indicating success or failure)
+For Students: APIs that check and select courses  
+1.can read texts that describes on each course. (check course table --> input: course id; ouput: course active status  
+                                                 getMapping course --> input: course id; output: course description)  
+2.can join any courses. (check course table --> input: course id; ouput: course active status  
+                         postMapping enrollment table --> input: student id, course id, true; output: status message indicating success or failure)   
+3.can quit any courses. (postMapping enrollment table --> input: student id, course id, enrolled status true; output: status message indicating success or failure)  
 
 ![Diagram](https://user-images.githubusercontent.com/112025981/188248437-efc8a985-6144-4fcb-a3fa-c570f3081f82.svg)
 
