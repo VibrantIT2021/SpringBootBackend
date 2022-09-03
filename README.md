@@ -26,7 +26,7 @@ For Students: APIs that check and select courses
                          postMapping enrollment table --> input: student id, course id, true; output: status message indicating success or failure)   
 3. can quit any courses. (postMapping enrollment table --> input: student id, course id, enrolled status true; output: status message indicating success or failure)  
 
-![Diagram](https://user-images.githubusercontent.com/112025981/188248437-efc8a985-6144-4fcb-a3fa-c570f3081f82.svg)
+![Diagram](https://user-images.githubusercontent.com/112025981/188250490-e6a92a05-addd-4ab1-8d6f-be3e2c5a64c3.svg)
 
 Project Requirements:
 1. Generate a Gradle or Maven Project with Java and Spring Boot framework (version 2.7.3).  
