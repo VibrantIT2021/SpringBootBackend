@@ -27,7 +27,7 @@ For Students: APIs that check and select courses
 4.	can write text reviews to any courses that he attended before.
 5.	can send numerical rating to any course that he attended before.
 
-![Diagram](https://user-images.githubusercontent.com/112025981/188245719-739ae91f-bb76-406e-ad9d-861c58bc7b1f.svg)
+![Diagram](https://user-images.githubusercontent.com/112025981/188248437-efc8a985-6144-4fcb-a3fa-c570f3081f82.svg)
 
 Project Requirements:
 1.	Generate a Gradle or Maven Project with Java and Spring Boot framework (version 2.7.3).
