@@ -13,19 +13,12 @@ For Professor: APIs that can create courses
 2.	can delete each course. (postMapping --> input: course id; output: status message indicating delete success or failure)
 4.	can edit description text on each course. (postMapping --> input: course id, course description; output: status message indicating success or failure)
 5.	can update roster of attended students if they join or quit course.
-6.	can check how many students select each course and who they are (name and gender). 
-7.	can check anonymous text reviews from students on each course and send back text message to any reviews.
-8.	can check anonymous numerical ratings (0-10 inclusive) from students on each course.
-9.	can check highest rating, lowest rating, and the average rating score.
-10.	can sort the text reviews in ascending and descending order according to updated time of reviews.
-11.	can get the review text containing String keyword “good” and “bad”.
+6.	can check how many students select each course and who they are (name and gender).
 
 For Students: APIs that check and select courses
-1.	can read texts that describes each course.
-2.	can join any courses. (postMapping --> input: student id, course id) 
-3.	can quit any courses. (postMapping --> )
-4.	can write text reviews to any courses that he attended before.
-5.	can send numerical rating to any course that he attended before.
+1.	can read texts that describes each course. (getMapping --> input: course id; output: course description)
+2.	can join any courses. (postMapping --> input: student id, course id, enrolled status true; output: status message indicating success or failure) 
+3.	can quit any courses. (postMapping --> input: student id, course id, enrolled status true; output: status message indicating success or failure)
 
 ![Diagram](https://user-images.githubusercontent.com/112025981/188248437-efc8a985-6144-4fcb-a3fa-c570f3081f82.svg)
 
